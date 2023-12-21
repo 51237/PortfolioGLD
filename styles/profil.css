@@ -60,6 +60,11 @@ nav a {
     background-color: #ccc
 }
 
+.page-content .profil .github {
+    text-decoration: none;
+    color: red;
+}
+
 .page-content .profil a {
     text-decoration: none;
     color: blue;

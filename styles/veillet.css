@@ -45,6 +45,60 @@ nav a {
     color: black;
 }
 
+.page-content button {
+    width: 100px;
+    height: 100px; 
+    margin: 20px auto; 
+    display: block; 
+    color: white; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s; 
+}
+
+.page-content button:hover {
+    background-color: #ccc
+}
+
+.page-content a {
+    text-decoration: none;
+    color: black;
+}
+
+u h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.page-content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.google-alert {
+    display: flex;
+    align-items: center;
+}
+
+.google-alert img {
+    width: 300px;
+    height: 200px;
+}
+
+.feedly {
+    display: flex;
+    align-items: center;
+}
+
+.feedly img {
+    width: 300px;
+    height: 200px;
+}
+
+.veilleRGPD h2 {
+    text-align: center;
+}
+
 footer{
     margin-top: 5%;
     display: flex;
