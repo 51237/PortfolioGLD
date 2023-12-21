@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+
+nav .profile h1 {
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+nav ul li:hover {
+    border-bottom: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.ecole-img {
+    width: 200px;
+    margin: 50px;
+    display: block;
+    position: absolute;
+}
+
+
+.page-content .ecole {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-content .ecole h1 {
+    font-size: 30px;
+}
+
+.page-content button {
+    flex: 0 0 auto;
+    width: 100px;
+    height: 100px;  
+    display: block; 
+    color: white; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s; 
+}
+
+.page-content button:hover {
+    background-color: #ccc
+}
+
+.page-content button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-content p {
+    margin-left: 30px;
+}
+
+.page-content h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.page-content .ecole img {
+    width: 200px;
+}
+
+.page-content .glpi-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .glpi-container h3 {
+    margin-right: 20px;
+}
+
+
+.page-content .glpi-img {
+    width: 120px;
+}
+
+.page-content .glpi {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .glpi-img {
+    width: 120px;
+}
+
+.page-content .ap2-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .ap2-container h3 {
+    margin-right: 10px;
+}
+
+.page-content .ap2 {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .m2l-img {
+    width: 150px;
+}
+
+.page-content .ap1-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .ap1-container h3 {
+    margin-right: 20px;
+}
+
+.page-content .scronet-img {
+    width: 150px;
+}
+
+.page-content .ap1 {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .biblio {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .inventaire {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .ap3-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .ap3-container h3 {
+    margin-right: 10px;
+}
+
+.page-content .ap3 {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .m2l-img2 {
+    width: 150px;
+}
+
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer .colonne p {
+    font-size: 12px;
+    color: #ccc;
+    cursor: pointer
+}
+
+footer .colonne p:hover {
+    color: white;
+}
+
+footer .colonne a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+@media screen and (max-width : 700px) {
+    nav {
+        justify-content: center;
+    }
+    nav ul {
+        display: none;
+    }
+
+    .page-content header{
+        margin-top: 10%;
+        max-width: 100%;
+    }
+
+    footer{
+        justify-content: flex-start;
+    }
+    footer .colonne {
+        width: 80%;
+    }
+}
