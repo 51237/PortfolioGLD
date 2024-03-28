@@ -184,6 +184,20 @@ nav a {
     align-items: center;
 }
 
+.page-content .deploiement-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .deploiement-container h3 {
+    margin-right: 10px;
+}
+
+.page-content .deploiement {
+    display: flex;
+    align-items: center;
+}
+
 .page-content .m2l-img2 {
     width: 150px;
 }
